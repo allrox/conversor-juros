@@ -31,25 +31,25 @@ public class conversor {
 //		Switch case
 		switch(opt) {
 		case 1:
-	//		a.a para a.m.
+//			a.a para a.m.
 			tx = Math.pow((1.0+tx), (1.0/12.0))-1.0;
 			System.out.println("\nA taxa de " + m*100.0 + "% a.a. equivale a " + tx*100.0 + "% a.m.");
 			break;
 		
 		case 2:	
-	//		a.m para a.a.
+//			a.m para a.a.
 			tx = Math.pow((1.0+tx), (12.0))-1.0;
 			System.out.println("\nA taxa de " + m*100.0 + "% a.m. equivale a " + tx*100.0 + "% a.a.");
 			break;
 		
 		case 3:
-	//		a.m para a.d.
+//			a.m para a.d.
 			tx = Math.pow((1.0+tx), (1.0/30.0))-1.0;
 			System.out.println("\nA taxa de " + m*100.0 + "% a.m. equivale a " + tx*100.0 + "% a.d.");
 			break;
 			
 		case 4:
-	//		a.d para a.m.
+//			a.d para a.m.
 			tx = Math.pow((1.0+tx), 30.0)-1.0;
 			System.out.println("\nA taxa de " + m*100.0 + "% a.d. equivale a " + tx*100.0 + "% a.m.");
 			break;
